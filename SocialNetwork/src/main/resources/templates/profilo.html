@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no,
+           initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profilo Utente</title>
+</head>
+<body>
+<h1>Profilo di <span th:text="${utente.nome}">Nome</span> <span th:text="${utente.cognome}">Cognome</span></h1>
+
+<h2>Dettagli Utente</h2>
+<p>Email: <span th:text="${utente.email}">Email</span></p>
+<p>Nome: <span th:text="${utente.nome}">Nome</span></p>
+<p>Cognome: <span th:text="${utente.cognome}">Cognome</span></p>
+
+
+</body>
+</html>
